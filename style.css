@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    margin-top: 150px;
+}
+
+.container h1 {
+    color: rgb(183, 183, 17);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form .caixas {
+    display: flex;
+    justify-content: center;
+}
+
+.container form .caixas .caixaPeso,
+.caixaAltura {
+    color: rgb(207, 207, 29);
+    background-color: rgb(62, 61, 60);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 650px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+    border: solid rgb(146, 146, 146) 2px;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.container button {
+    background-color: rgb(62, 61, 60);
+    color: rgb(207, 207, 29);
+    border: 0;
+    padding: 8px;
+    width: 200px;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(71, 70, 69);
+    color: rgb(224, 224, 24);
+}
+
+input {
+    margin-top: 10px;
+    outline: none;
+    padding: 3px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 25px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.814);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#resultado {
+    color: antiquewhite;
+    margin-top: 30px;
+    text-align: center;
+}

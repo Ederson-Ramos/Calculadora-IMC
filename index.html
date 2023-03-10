@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoa IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULADORA DE IMC</h1>
+        <form novalidate>
+            <div class="caixas">
+                <div class="caixaPeso">
+                    <p>Digite o seu peso:</p>
+                    <div class="input">
+                        <input id="numeroPeso" type="number" required>
+                        <p>KG</p>
+                    </div>
+                </div>
+            </div>
+            <div class="caixas">
+                <div class="caixaAltura">
+                    <p>Digite a sua altura:</p>
+                    <div class="input">
+                        <input placeholder="Digite usando virgula" id="numeroAltura" type="number" required>
+                        <p>CM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="botao">
+                <button onclick="botao()">Calcular</button>
+            </div>
+        </form>
+        <p id="resultado">Você está:</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
